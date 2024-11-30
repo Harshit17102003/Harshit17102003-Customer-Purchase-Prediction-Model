@@ -126,6 +126,17 @@ These KPIs help evaluate the model's performance and provide actionable insights
 4. **Deploy the Model**:  
    This model could be deployed as an **API** for real-time prediction of customer purchases.
 
+   ## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- **Email**: harshitsharma17102003@gmail.com  
+- **LinkedIn**: [Harshit Sharma](https://linkedin.com/in//its-harshit/)  
+- **GitHub**: [Harshit Sharma](https://github.com/Harshit17102003)
+
+Looking forward to connecting!
+
+
 
 
 
