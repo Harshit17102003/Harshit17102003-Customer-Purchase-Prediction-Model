@@ -33,3 +33,28 @@ You can install them using `pip`:
 
 ```bash
 pip install pandas numpy scikit-learn seaborn matplotlib
+
+# Create Dataset_Description.md
+dataset_description = """
+# Dataset Description
+
+## Features:
+1. **Age**: Age of the customer (18-70).
+2. **Income**: Annual income of the customer (in dollars, ranging from $20,000 to $120,000).
+3. **Browsing Hours**: Number of hours spent browsing per day (0.5 to 10 hours).
+4. **Gender**: Gender of the customer (Male or Female).
+5. **Device**: Device used by the customer (Mobile, Desktop, Tablet).
+6. **Most Searched Item**: Product category most searched by the customer (Electronics, Clothing, Home Decor, etc.).
+7. **Purchase**: Binary outcome (0 = no purchase, 1 = purchase).
+
+## Additional Notes:
+- The dataset is generated synthetically, simulating real-world customer data and behaviors.
+- It combines demographic information, browsing habits, and categorical data to provide realistic insights for predictive modeling.
+"""
+
+# Write to a Markdown file
+with open("Dataset_Description.md", "w") as file:
+    file.write(dataset_description)
+
+print("Dataset description written to 'Dataset_Description.md'")
+
